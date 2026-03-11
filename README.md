@@ -50,7 +50,7 @@ Both outputs are pixel-aligned, eliminating skirt artifacts in 3D visualization.
 
 ### Requirements
 - **QGIS 3.16 or later (including QGIS 4.x)**
-- No additional Python packages required — all dependencies are bundled with QGIS
+- No additional Python packages required - all dependencies are bundled with QGIS
 
 ---
 
