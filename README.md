@@ -1,4 +1,4 @@
-# CSM 3D Image Extractor — QGIS Plugin v1.0
+# CSM 3D Image Extractor - QGIS Plugin v1.0
 
 Developed by **Geocentric Environmental Inc.** to streamline the export of draped DEMs and basemap imagery for use in **CSM 3D Vis**.
 
@@ -8,7 +8,8 @@ Developed by **Geocentric Environmental Inc.** to streamline the export of drape
 
 **Do not use the green "Code → Download ZIP" button to install this plugin.**
 
-**If install through the in-app QGIS repo is not available, please pownload the install-ready zip from the [Releases](link) page instead. To download click on the placeholder.**
+**If install through the in-app QGIS repo is not available, please pownload the install-ready zip from the [Releases](https://github.com/Brick095/Draped-DEM-Exporter-by-Geocentric/releases/tag/V1.0) page instead. To download click on "
+CSM_3D_Image.Extractor.zip".**
 
 ---
 
@@ -32,7 +33,7 @@ Both outputs are pixel-aligned, eliminating skirt artifacts in 3D visualization.
 
 ## Important notes
 
-1. **Use only square or rectangular Cropping Extents.** CSM 3D Vis only supports these shapes — irregular polygons will produce skirt artifacts along the edges.
+1. **Use only square or rectangular Cropping Extents.** CSM 3D Vis only supports these shapes - irregular polygons will produce skirt artifacts along the edges.
 2. **Turn off unwanted layers** before running the plugin. Everything visible on the QGIS canvas will be captured in the output image.
 3. **Zoom to the full extent of your Cropping Extent layer** before running. This ensures the basemap is rendered at the highest resolution possible.
 4. **Turn off the DEM layer before running the plugin.** The DEM is likely positioned above the background imagery in the layer panel and will be rendered into the basemap image if left visible. Only the background imagery and any layers you intentionally want included in the export should be turned on.
@@ -40,7 +41,7 @@ Both outputs are pixel-aligned, eliminating skirt artifacts in 3D visualization.
 
 ## Installation (without QGIS Plugin Repository)
 
-1. Download the latest `CSM_3D_Image_Extractor.zip` from the [Releases](placeholder) page 
+1. Download the latest `CSM_3D_Image_Extractor.zip` from the [Releases](https://github.com/Brick095/Draped-DEM-Exporter-by-Geocentric/releases/tag/V1.0) page 
 2. Open QGIS and go to **Plugins → Manage and Install Plugins**
 3. Select the **Install from ZIP** tab
 4. Browse to the downloaded `.zip` file and click **Install Plugin**
