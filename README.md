@@ -35,7 +35,7 @@ Both outputs are pixel-aligned, eliminating skirt artifacts in 3D visualization.
 1. **Use only square or rectangular Cropping Extents.** CSM 3D Vis only supports these shapes — irregular polygons will produce skirt artifacts along the edges.
 2. **Turn off unwanted layers** before running the plugin. Everything visible on the QGIS canvas will be captured in the output image.
 3. **Zoom to the full extent of your Cropping Extent layer** before running. This ensures the basemap is rendered at the highest resolution possible.
-4. Turn off the DEM layer before running the plugin. The DEM is likely positioned above the background imagery in the layer panel and will be rendered into the basemap image if left visible. Only the background imagery and any layers you intentionally want included in the export should be turned on.
+4. **Turn off the DEM layer before running the plugin.** The DEM is likely positioned above the background imagery in the layer panel and will be rendered into the basemap image if left visible. Only the background imagery and any layers you intentionally want included in the export should be turned on.
 ---
 
 ## Installation (without QGIS Plugin Repository)
